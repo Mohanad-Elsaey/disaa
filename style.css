@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+canvas {
+  position: absolute;
+}
+svg {
+  position: absolute;
+  display: none;
+}
+
+#message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 0 0 10px #ee5282, 0 0 20px #ee5282, 0 0 30px #ee5282;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  z-index: 10;
+  pointer-events: none;
+  width: 350px;
+  line-height: 1.5;
+}
